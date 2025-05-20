@@ -1,0 +1,199 @@
+.container {
+  width: 300px; /* Set the width of the container */
+  height: 600px; /* Set the height of the container */
+  background-color: #2f843a99; /* Set the background color of the container */
+  border-radius: 15px; /* Optional: Add rounded corners for a more phone-like appearance */
+  box-shadow: 10px 10px 10px rgb(0, 0, 0); /* Optional: Add a shadow for depth */
+  margin: auto; /* Optional: Add margin for spacing */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+body {
+  background-color: rgb(42, 82, 68);
+}
+.container ul {
+  margin-top: 0%;
+  padding-left: 0%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: left;
+}
+.first {
+  padding-right: 65px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+.second {
+  padding-left: 90px;
+  display: flex;
+  justify-content: right;
+  flex-direction: row;
+}
+#w,
+#third,
+#fourth {
+  padding-right: 3px;
+}
+.secondC ul {
+  position: fixed;
+  top: 60px;
+  right: 70px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+.one {
+  padding-left: 22px;
+  position: relative;
+  left: 56px;
+}
+.sub {
+  display: flex;
+  justify-content: left;
+  margin-top: 90px;
+  height: auto;
+  width: auto;
+  color: white;
+}
+#f {
+  padding-top: 15px;
+}
+.sub ul li {
+  padding: 10px 20px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: rgba(0, 0, 0, 0.93);
+  border: rgba(24, 24, 24, 0.764) 5px solid;
+  border-radius: 40px;
+  font-size: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.grid {
+  display: grid;
+  color: white;
+  gap: 10px 70px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px;
+}
+.grid-item {
+  background-color: black;
+  border-radius: 10px;
+
+  color: white;
+  height: 50px;
+  width: 130px;
+}
+.grid-item:hover {
+  cursor: pointer;
+  color: rgb(35, 225, 54);
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  position: fixed;
+  top: 570px;
+  height: 44px;
+  width: 300px;
+  border-radius: 10px;
+  height: 34px; /* Set the desired height */
+  background: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0),
+    rgba(2, 2, 2, 0.749)
+  );
+}
+footer ul li {
+  padding: 10px 30px 10px 40px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+footer ul li:hover {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+.song {
+  display: grid;
+  display: grid;
+  color: white;
+  gap: 10px 70px;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 100px 100px;
+}
+a{
+  text-decoration: none;
+  font-size: 11px ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+a:hover{
+  color: rgb(35, 225, 54);
+}
+img {
+  display: flex;
+  height: 124px;
+  width: 134px;
+  border-radius: 10px;
+  position: fixed;
+  top: 426px;
+  left: 16px;
+}
+.text {
+  position: relative;
+    /* align-items: center; */
+    font-size: 18px;
+    top: 26px;
+    left: 166px;
+    width: 118px;
+}
+.progress {
+  display: flex;
+  position: fixed;
+  top: 515px;
+  left: 163px 
+}
+.action{
+  display: flex;
+    position: fixed;
+    top: 541px;
+    left: 171px;
+    list-style: none;
+    flex-direction: row;
+}
+
+#class1, #class2,#class3{
+  padding-right: 9px;
+    margin-right: 15px;
+    background-color: #2a64b2f0;
+    color: white;
+    border-radius: 6px;
+}
+.gif img{
+  position: fixed;
+  opacity: 0;
+  transition: opacity 0.3s ease-in ;
+    top: 470px;
+    left: 167px;
+    height: 39px;
+    width: 126px 
+}
+
+.name{
+  position: fixed;
+    top: 414px;
+    left: 183px;
+}
